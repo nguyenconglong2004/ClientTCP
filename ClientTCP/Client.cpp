@@ -51,6 +51,21 @@ void Client::keyPressEvent(QKeyEvent* event)
         case Qt::Key_Delete:
             k = VK_DELETE;
             break;
+        case Qt::Key_Semicolon:
+            k = VK_OEM_1;
+            break;
+        case Qt::Key_Comma:
+            k = VK_OEM_COMMA;
+            break;
+        case Qt::Key_Period:
+            k = VK_OEM_PERIOD;
+            break;
+        case Qt::Key_Slash:
+            k = VK_OEM_2;
+            break;
+        case Qt::Key_Apostrophe:
+            k = VK_OEM_7;
+            break;
         default:
             break;
         }
@@ -94,6 +109,21 @@ void Client::keyReleaseEvent(QKeyEvent* event) {
             break;
         case Qt::Key_Delete:
             k = VK_DELETE;
+            break;
+        case Qt::Key_Semicolon:
+            k = VK_OEM_1;
+            break;
+        case Qt::Key_Comma:
+            k = VK_OEM_COMMA;
+            break;
+        case Qt::Key_Period:
+            k = VK_OEM_PERIOD;
+            break;
+        case Qt::Key_Slash:
+            k = VK_OEM_2;
+            break;
+        case Qt::Key_Apostrophe:
+            k = VK_OEM_7;
             break;
         default:
             break;
